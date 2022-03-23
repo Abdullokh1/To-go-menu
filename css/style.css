@@ -89,24 +89,31 @@ body {
 }
 .minus{
   background-color: rgb(216, 9, 9);
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 20px;
-  bottom: -13%;
+  right: 0;
+  bottom: 0;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.bx-minus{
+.btn-group{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.plus{
+  right: 35px;
+  color: #fff;
   font-size: 22px;
 }
-.minus:hover{
-  transform: rotate(180deg);
+.bx-minus{
+  font-size: 22px;
 }
 .second-wrap{
   padding-bottom: 30px;
@@ -121,6 +128,19 @@ button{
 button:hover{
   transform: translate(0,-5px);
   background-color: #5630ca;
+}
+.count {
+  background-color: #784bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: -5%;
+  border-radius: 50%;
 }
 
 
